@@ -3,5 +3,15 @@ html
         title= 'title'
 
     body
-        h1= 'message'
-        img(src='./img/cat.jpg')
+        h1= 'Click on the cat'
+        article
+            header
+                h2= name
+
+            figure
+                img(src='./img/cat.jpg')
+
+            p= "Age: 7"
+            p= "Weight: 5kg"
+
+    script(src='./js/main.js')
