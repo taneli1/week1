@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style>
+        * { font-family: 'Roboto', sans-serif; }
+
+        body {
+            max-width: 720px;
+            margin: auto;
+        }
+        .container {
+            border: solid black 1px;
+            -webkit-box-shadow: 3px 2px 17px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 3px 2px 17px 0px rgba(0,0,0,0.75);
+            box-shadow: 3px 2px 17px 0px rgba(0,0,0,0.75);
+        }
+        article p {
+            margin: 20px;
+        }
+        h2 {
+            font-size: 22px;
+            margin-left: 20px;
+        }
+        ul {
+            margin-left: 40px;
+        }
+        li.option1 {
+            color: green;
+        }
+        li.option2 {
+            color: red;
+        }
+        li.option3{
+            color: blue;
+        }
+
+        .navigation_list{
+            list-style-type: none;
+            padding: 0;
+            overflow: hidden;
+            border-bottom: black 1px solid;
+            margin: 0 10px;
+        }
+        .navigation li {
+            float: left;
+            font-weight: bold;
+        }
+        .navigation li:hover{
+            background-color: #93CCEA;
+        }
+        .navigation_list a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .image1 {
+            width: 100%;
+            height: auto;
+            max-height: 300px;
+        }
+        .image2 {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 20px;
+            float: left;
+        }
+
+    </style>
+    <title>Layout exc.1</title>
+</head>
+<body>
+
+<div>
+    <h1 id="main_header">CSS Layout Exercise 1</h1>
+</div>
+
+<div class="container">
+
+    <div>
+        <img class="image1" src="https://images.pexels.com/photos/2835562/pexels-photo-2835562.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"  alt="image">
+    </div>
+
+
+    <div class="navigation">
+        <ul class="navigation_list">
+            <li><a href="index.html">Link 1</a></li>
+            <li><a href="index.html">Link 2</a></li>
+            <li><a href="index.html">Link 3</a></li>
+        </ul>
+    </div>
+
+
+    <div>
+        <img class="image2" src="https://images.pexels.com/photos/2835562/pexels-photo-2835562.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="image">
+        <article>
+            <p>filler text filler text filler text filler text filler text filler text
+                filler text filler text filler text filler text filler text filler text
+                filler text filler text filler text filler text filler text filler text
+                filler text filler text filler text filler text filler text filler text
+                filler text filler text filler text filler text filler text filler text
+                filler text filler text filler text filler text filler text filler text
+                filler text filler text filler text filler text filler text filler text
+                filler text filler text filler text filler text filler text filler text
+                filler text filler text filler text filler text filler text filler text
+                filler text filler text filler text filler text filler text filler text
+                filler text filler text filler text filler text filler text filler text
+                filler text filler text filler text filler text filler text filler text
+                filler text filler text filler text filler text filler text filler text
+                filler text filler text filler text filler text filler text filler text
+                filler text filler text filler text filler text filler text filler text
+                filler text filler text filler text filler text filler text filler text
+                filler text filler text filler text filler text filler text filler text
+                filler text filler text filler text filler text filler text filler text
+                filler text filler text filler text filler text filler text filler text
+                filler text filler text filler text filler text filler text filler text
+                filler text filler text filler text filler text filler text filler text
+                filler text filler text filler text filler text filler text filler text
+                filler text filler text filler text filler text filler text filler text
+                filler text filler text filler text filler text filler text filler text </p>
+        </article>
+    </div>
+
+
+    <div id="bottom_div">
+        <h2>filler text</h2>
+        <ul>
+            <li class="option1">filler text</li>
+            <li class="option2">filler text</li>
+            <li class="option3">filler text</li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>

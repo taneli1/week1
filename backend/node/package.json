@@ -1,0 +1,15 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  },
+  "description": "TEst",
+  "main": "script.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon script.js"
+  },
+  "author": "Leevi",
+  "license": "ISC"
+}
